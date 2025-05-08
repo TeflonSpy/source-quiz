@@ -1,0 +1,1950 @@
+{
+  "exam": "AI-900",
+  "questions": [
+    {
+      "id": 1,
+      "question": "You want to create a model to predict sales of ice cream based on historic data that includes daily ice cream sales totals and weather measurements. Which Azure service should you use?",
+      "options": [
+        "Azure Machine Learning",
+        "Azure AI Bot Service",
+        "Azure AI Language"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 2,
+      "question": "You work for a wildlife sanctuary and are considering using AI to identify bird species from images. Which AI service should you use to prototype your idea?",
+      "options": [
+        "Azure AI Vision",
+        "Azure AI Search",
+        "Azure OpenAI"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 3,
+      "question": "A predictive app provides audio output for visually impaired users. Which principle of Responsible AI is reflected here?",
+      "options": [
+        "Transparency",
+        "Inclusiveness",
+        "Fairness"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 4,
+      "question": "You want to create a model to predict the cost of heating an office building based on its size in square feet and the number of employees working there. What kind of machine learning problem is this?",
+      "options": [
+        "Regression",
+        "Classification",
+        "Clustering"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 5,
+      "question": "You need to evaluate a classification model. Which metric can you use?",
+      "options": [
+        "Mean squared error (MSE)",
+        "Precision",
+        "Silhouette"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 6,
+      "question": "In deep learning, what is the purpose of a loss function?",
+      "options": [
+        "To remove data for which no known label values are provided",
+        "To evaluate the aggregate difference between predicted and actual label values",
+        "To calculate the cost of training a neural network rather than a statistical model.\u00a0"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 7,
+      "question": "What does automated machine learning in Azure Machine Learning enable you to do?",
+      "options": [
+        "Automatically deploy new versions of a model as they're trained",
+        "Automatically provision Azure Machine Learning workspaces for new data scientists in an organisation",
+        "Automatically run multiple training jobs using different algorithms and parameters to find the best model"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 8,
+      "question": "An application requires three separate AI services. To see the cost for each separately, what type of resource(s) should be created?",
+      "options": [
+        "A multi-service resource that includes all the AI services",
+        "A single-service resource for each AI service",
+        "It's not possible to see costs for individual AI services"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 9,
+      "question": "After logging into one of the Azure studios, what is one task to complete to begin using the studio?",
+      "options": [
+        "Input a key and endpoint into the studio",
+        "Customize the API request.",
+        "Associate a resource with the studio"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 10,
+      "question": "What is an Azure AI services resource?",
+      "options": [
+        "A bundle of several AI services in one resource",
+        "An AI service to recognize faces",
+        "A single-service resource for Azure AI Search"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 11,
+      "question": "Computer vision is based on the manipulation and analysis of what kinds of values in an image?",
+      "options": [
+        "Timestamps in photograph metadata",
+        "Pixels",
+        "Image file names"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 12,
+      "question": "You want to use the Azure AI Vision service to analyze images. You also want to use the Azure AI Language service to analyze text. You want developers to require only one key and endpoint to access all of your services. What kind of resource should you create in your Azure subscription?",
+      "options": [
+        "Azure AI Vision",
+        "Azure AI services",
+        "Azure OpenAI service"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 13,
+      "question": "You want to use the Azure AI Vision service to identify the location of individual items in an image. Which of the following features should you retrieve?",
+      "options": [
+        "Objects",
+        "Visual Tags",
+        "Dense Captions"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 14,
+      "question": "How does the Face service indicate the location of faces in images?",
+      "options": [
+        "A pair of coordinates for each face, indicating the center of the face",
+        "Two pairs of coordinates for each face, indicating the location of the eyes",
+        "A set of coordinates for each face, defining a rectangular bounding box around the face"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 15,
+      "question": "What is one aspect that might impair facial detection?",
+      "options": [
+        "Glasses",
+        "Extreme angles",
+        "Fast shutter speed"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 16,
+      "question": "What two actions are required to try out the capabilities of the Face service?",
+      "options": [
+        "Create an Azure Cognitive Search resource, and open Vision Studio",
+        "Create a Face resource, and open Vision Studio",
+        "Create a Face resource, and open Azure OpenAI Studio"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 17,
+      "question": "You want to extract text from images and then use Azure AI Language to analyze the text. You want developers to require only one key and endpoint to access all of your services. What kind of resource should you create in your Azure subscription?",
+      "options": [
+        "Azure AI Vision",
+        "Azure AI services",
+        "Azure AI Language"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 18,
+      "question": "You plan to use Azure AI Vision's Read API. What results can the Read API provide?",
+      "options": [
+        "Results arranged in pages, lines, and words",
+        "Only the bounding box coordinates",
+        "Results arranged by pages that have photographs first, then pages that exclusively have text"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 19,
+      "question": "You want to use Azure AI Language to determine the key talking points in a text document. Which feature of the service should you use?",
+      "options": [
+        "Sentiment analysis",
+        "Key phrase extraction",
+        "Entity detection"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 20,
+      "question": "You use Azure AI Language to perform sentiment analysis on a sentence. The confidence scores .04 positive, .36 neutral, and .60 negative are returned. What do these confidence scores indicate about the sentence sentiment?",
+      "options": [
+        "The document is positive.",
+        "The document is neutral.",
+        "The document is negative."
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 21,
+      "question": "When might you see\u00a0NaN\u00a0returned for a score in language detection?",
+      "options": [
+        "When the score calculated by the service is outside the range of 0 to 1",
+        "When the predominant language in the text is mixed with other languages",
+        "When the language is ambiguous"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 22,
+      "question": "Your organization has an existing frequently asked questions (FAQ) document. You need to create a knowledge base that includes the questions and answers from the FAQ with the least possible effort. What should you do?",
+      "options": [
+        "Create an empty knowledge base, and then manually copy and paste the FAQ entries into it.",
+        "Import the existing FAQ document into a new knowledge base.",
+        "Import a pre-defined chit-chat data source."
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 23,
+      "question": "You want to create a knowledge base for your organization\u2019s bot service. Which Azure AI service is best suited to creating a knowledge base?",
+      "options": [
+        "Conversational Language Understanding",
+        "Question Answering",
+        "Optical Character Recognition"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 24,
+      "question": "You need to provision an Azure resource that will be used to author a new conversational language understanding application. What kind of resource should you create?",
+      "options": [
+        "Azure AI Speech",
+        "Azure AI Language",
+        "Azure AI services"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 25,
+      "question": "You are authoring a conversational language understanding application to support an international clock. You want users to be able to ask for the current time in a specified city, for example \"What is the time in London?\". What should you do?",
+      "options": [
+        "Define a \"city\" entity and a \"GetTime\" intent with utterances that indicate the city entity.",
+        "Create an intent for each city, each with an utterance that asks for the time in that city.",
+        "Add the utterance \"What time is it in city\" to the \"None\" intent."
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 26,
+      "question": "You have published your conversational language understanding application. What information does a client application developer need to get predictions from it?",
+      "options": [
+        "The endpoint and key for the application's prediction resource",
+        "The endpoint and key for the application's authoring resource",
+        "The Azure credentials of the user who published the language understanding application"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 27,
+      "question": "You plan to build an application that uses Azure AI Speech to transcribe audio recordings of phone calls into text, and then submit the transcribed text to Azure AI Language to extract key phrases. You want to manage access and billing for the application services with a single Azure resource. Which type of Azure resource should you create?",
+      "options": [
+        "Speech",
+        "Language",
+        "Azure AI services"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 28,
+      "question": "You want to use Azure AI Speech service to build an application that reads incoming email message subjects aloud. Which API should you use?",
+      "options": [
+        "Speech to text",
+        "Text to speech",
+        "Translator"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 29,
+      "question": "You plan to use Azure AI Document Intelligence's prebuilt receipt model. Which kind of Azure resource should you create?",
+      "options": [
+        "Azure AI Vision resource",
+        "Azure AI Document Intelligence or Azure AI services resource.",
+        "Azure AI Language resource."
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 30,
+      "question": "You are using the Azure AI Document Intelligence service to analyze receipts. Which field types does the service recognise?",
+      "options": [
+        "Merchant retail type.",
+        "Merchant name and address.",
+        "Merchant name and date of incorporation."
+      ],
+      "correct_answer_index": -1,
+      "explanation": ""
+    },
+    {
+      "id": 31,
+      "question": "What is required to use the receipt analyzer service in Azure AI Document Intelligence?",
+      "options": [
+        "Train the model on sample receipts from your organisation.",
+        "Create an Azure AI Document Intelligence resource.",
+        "Nothing - receipt analyzer is available once you create an Azure subscription."
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 32,
+      "question": "Which data format is accepted by Azure AI Search when you're pushing data to the index?",
+      "options": [
+        "CSV",
+        "SQL",
+        "JSON"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 33,
+      "question": "Which explanation best describes an indexer and an index?",
+      "options": [
+        "An indexer converts documents into JSON and forwards them to a search engine for indexing.",
+        "An indexer can be used instead of an index if the files are already in the proper format.",
+        "An indexer is only used for AI enrichment and skillset execution."
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 34,
+      "question": "If you set up a search index without including a skillset, which would you still be able to query?",
+      "options": [
+        "Sentiment",
+        "Text content",
+        "Image captions"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 35,
+      "question": "What are Large Language Models?",
+      "options": [
+        "Models that only work with one language.",
+        "Models that only work with small amounts of data.",
+        "Models that use deep learning to process and understand natural language on a massive scale."
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 36,
+      "question": "What is an example of a potential task a generative AI application can help solve?",
+      "options": [
+        "Monitoring the temperature in a manufacturing facility.",
+        "Creating a draft for an email.",
+        "Collecting real time data and storing it in a database."
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 37,
+      "question": "What is the purpose of vector-based embeddings?",
+      "options": [
+        "To represent semantic meaning of text tokens.",
+        "To create tokens that include multiple representations of a word in different languages.",
+        "To correct misspellings in the training data."
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 38,
+      "question": "What is the potential impact of copilots?",
+      "options": [
+        "Copilots only impact applications used in professional settings.",
+        "Copilots can help with first drafts, information synthesis, strategic planning, and much more.",
+        "Copilots can only be used for certain natural language tasks like summarizing text."
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 39,
+      "question": "Which assumption of the multiple linear regression model should be satisfied to avoid misleading predictions?",
+      "options": [
+        "Features are dependent on each other.",
+        "Features are independent of each other.",
+        "Labels are dependent on each other.",
+        "Labels are independent of each other."
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 40,
+      "question": "How are ChatGPT, OpenAI, and Azure OpenAI related?",
+      "options": [
+        "Azure OpenAI is Microsoft's version of ChatGPT, a chatbot that uses generative AI models.",
+        "ChatGPT and OpenAI are chatbots that generate natural language, code, and images. Azure OpenAI provides access to these two chatbots.",
+        "OpenAI is a research company that developed ChatGPT, a chatbot that uses generative AI models. Azure OpenAI provides access to many of OpenAI's AI models"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 41,
+      "question": "You would like to summarise a paragraph of text. Which generative AI model family would you use to solve for this workload?",
+      "options": [
+        "GPT",
+        "Codex",
+        "Dall-E."
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 42,
+      "question": "What is one action Microsoft takes to support ethical AI practices in Azure OpenAI?",
+      "options": [
+        "Provides Transparency Notes that share how technology is built and asks users to consider its implications.",
+        "Logs users out of Azure OpenAI Studio after a period of inactivity to ensure it's only used by one user.",
+        "Allows users to build any application, regardless of harmful effects, to ensure fairness."
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 43,
+      "question": "Why should you consider creating an AI Impact Assessment when designing a generative AI solution?",
+      "options": [
+        "To make a legal case that indemnifies you from responsibility for harms caused by the solution",
+        "To document the purpose, expected use, and potential harms for the solution",
+        "To evaluate the cost of cloud services required to implement your solution"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 44,
+      "question": "What capability of Azure OpenAI Service helps mitigate harmful content generation at the Safety System level?",
+      "options": [
+        "DALL-E model support",
+        "Fine-tuning",
+        "Content filters"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 45,
+      "question": "Why should you consider a phased delivery plan for your generative AI solution?",
+      "options": [
+        "To enable you to gather feedback and identify issues before releasing the solution more broadly",
+        "To eliminate the need to identify, measure, and mitigate potential harms",
+        "To enable you to charge more for the solution"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 46,
+      "question": "What is AI?",
+      "options": [
+        "Software that imitates human behaviors and capabilities",
+        "Advanced mathematics",
+        "Machine learning, computer vision, natural language processing",
+        "Programming language"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 47,
+      "question": "What are the key workloads in AI?",
+      "options": [
+        "Data science",
+        "Advanced mathematics",
+        "Machine learning, computer vision, natural language processing",
+        "Robotics"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 48,
+      "question": "How do machines learn?",
+      "options": [
+        "By watching humans",
+        "Through trial and error",
+        "Through data",
+        "By reading books"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 49,
+      "question": "Where can you use computer vision solutions?",
+      "options": [
+        "In agriculture",
+        "In robotics",
+        "In healthcare",
+        "In Microsoft Azure"
+      ],
+      "correct_answer_index": 3,
+      "explanation": ""
+    },
+    {
+      "id": 50,
+      "question": "What area of AI deals with visual processing?",
+      "options": [
+        "Natural language processing",
+        "Robotics",
+        "Computer vision",
+        "Machine learning"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 51,
+      "question": "What is image classification?",
+      "options": [
+        "A mechanism for visual perception",
+        "A process of naming images",
+        "A method for classifying images based on their contents",
+        "An array of pixel values"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 52,
+      "question": "What principle of responsible AI emphasizes treating all people fairly?",
+      "options": [
+        "Reliability and safety",
+        "Privacy and security",
+        "Fairness",
+        "Inclusiveness"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 53,
+      "question": "Which aspect of responsible AI focuses on ensuring secure handling of data?",
+      "options": [
+        "Reliability and safety",
+        "Transparency",
+        "Privacy and security",
+        "Accountability"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 54,
+      "question": "What area of AI deals with understanding and interpreting written and spoken language?",
+      "options": [
+        "Computer vision",
+        "Machine learning",
+        "Natural language processing",
+        "Generative AI"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 55,
+      "question": "What Microsoft service provides capabilities for deploying and hosting generative AI models?",
+      "options": [
+        "Azure Vision Studio",
+        "Azure AI Language",
+        "Azure OpenAI Service",
+        "Azure AI Vision"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 56,
+      "question": "What is the fundamental goal of machine learning?",
+      "options": [
+        "To write code for predictive models",
+        "To use data to create a predictive model",
+        "To study historical data only",
+        "To predict past observations accurately"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 57,
+      "question": "What is the process called when a machine learning model calculates an output value based on one or more input values?",
+      "options": [
+        "Inference",
+        "Training",
+        "Collaboration",
+        "Modeling"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 58,
+      "question": "What do the features and labels represent in the context of machine learning?",
+      "options": [
+        "Features represent observed attributes, and labels represent predictions",
+        "Features represent predictions, and labels represent observed attributes",
+        "Features represent historical data, and labels represent future data",
+        "Features represent future data, and labels represent historical data"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 59,
+      "question": "What is the purpose of regression in supervised machine learning?",
+      "options": [
+        "To classify observations into discrete groups",
+        "To predict a numeric value",
+        "To predict a categorization or class",
+        "To determine relationships between features"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 60,
+      "question": "What is the primary objective of clustering in unsupervised machine learning?",
+      "options": [
+        "To determine relationships between features and labels",
+        "To predict a categorization or class",
+        "To group observations based on similarities",
+        "To identify patterns in historical data"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 61,
+      "question": "What is regression in machine learning?",
+      "options": [
+        "A form of unsupervised learning",
+        "A form of supervised learning where the label represents a categorization",
+        "A form of supervised learning where the label predicted by the model is a numeric value",
+        "A form of machine learning used for clustering"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 62,
+      "question": "Which of the following is an example of regression?",
+      "options": [
+        "Predicting whether a bank customer will default on a loan",
+        "Predicting the genre of a movie",
+        "Predicting the species of a penguin",
+        "Predicting the fuel efficiency of a car"
+      ],
+      "correct_answer_index": 3,
+      "explanation": ""
+    },
+    {
+      "id": 63,
+      "question": "What is classification in machine learning?",
+      "options": [
+        "A form of unsupervised learning",
+        "A form of supervised learning where the label represents a categorization",
+        "A form of supervised learning where the label predicted by the model is a numeric value",
+        "A form of machine learning used for clustering"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 64,
+      "question": "What is an example of binary classification?",
+      "options": [
+        "Predicting the species of a penguin",
+        "Predicting the selling price of a property",
+        "Predicting whether a patient is at risk for diabetes",
+        "Predicting the fuel efficiency of a car"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 65,
+      "question": "What evaluation metric is commonly used for evaluating a regression model?",
+      "options": [
+        "Accuracy",
+        "Recall",
+        "Mean Absolute Error (MAE)",
+        "Precision"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 66,
+      "question": "What evaluation metric is commonly used for evaluating a binary classification model?",
+      "options": [
+        "Mean Squared Error (MSE)",
+        "F1-score",
+        "Root Mean Squared Error (RMSE)",
+        "Coefficient of determination (R2)"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 67,
+      "question": "What is multiclass classification?",
+      "options": [
+        "A form of unsupervised learning",
+        "A form of supervised learning where the label represents a categorization",
+        "A form of supervised learning where the label predicted by the model is a numeric value",
+        "A form of machine learning used for clustering"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 68,
+      "question": "What is an example of multiclass classification?",
+      "options": [
+        "Predicting the selling price of a property",
+        "Predicting whether a bank customer will default on a loan",
+        "Predicting the genre of a movie",
+        "Predicting the fuel efficiency of a car"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 69,
+      "question": "What is clustering in machine learning?",
+      "options": [
+        "A form of supervised learning where the label represents a categorization",
+        "A form of unsupervised learning",
+        "A form of machine learning used for regression",
+        "A form of machine learning used for classification"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 70,
+      "question": "What is an example of clustering?",
+      "options": [
+        "Predicting the species of a penguin",
+        "Grouping flowers based on the number of leaves and petals",
+        "Predicting the fuel efficiency of a car",
+        "Predicting whether a patient is at risk for diabetes"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 71,
+      "question": "What is the key objective of training a clustering model?",
+      "options": [
+        "To maximize accuracy",
+        "To minimize recall",
+        "To minimize the mean absolute error (MAE)",
+        "To group data points into clusters based on similarities"
+      ],
+      "correct_answer_index": 3,
+      "explanation": ""
+    },
+    {
+      "id": 72,
+      "question": "Which metric can be used to evaluate the quality of clusters?",
+      "options": [
+        "Accuracy",
+        "Recall",
+        "Silhouette",
+        "Precision"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 73,
+      "question": "What is deep learning?",
+      "options": [
+        "A form of unsupervised learning",
+        "A form of supervised learning",
+        "A form of machine learning used for regression",
+        "An advanced form of machine learning inspired by the human brain"
+      ],
+      "correct_answer_index": 3,
+      "explanation": ""
+    },
+    {
+      "id": 74,
+      "question": "What is a neural network?",
+      "options": [
+        "A biological system for transmitting information",
+        "An algorithm for clustering data points",
+        "A function that maps inputs to outputs based on learned weights",
+        "A type of activation function"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 75,
+      "question": "What is Azure Machine Learning?",
+      "options": [
+        "A programming language for machine learning",
+        "A cloud service for managing machine learning projects",
+        "An open-source machine learning library",
+        "A deep learning framework"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 76,
+      "question": "What is the purpose of an Azure Machine Learning workspace?",
+      "options": [
+        "To import and explore data",
+        "To provision compute resources",
+        "To run code in notebooks",
+        "To manage machine learning resources and jobs"
+      ],
+      "correct_answer_index": 3,
+      "explanation": ""
+    },
+    {
+      "id": 77,
+      "question": "What is a significant benefit of Azure AI services?",
+      "options": [
+        "They require specialist AI knowledge to implement",
+        "They are only accessible to large technology companies",
+        "They unlock automation for workloads in language, vision, intelligent search, content generation, and more",
+        "They are primarily designed for robotics applications"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 78,
+      "question": "How do Azure AI services dramatically improve speed-to-market?",
+      "options": [
+        "By requiring extensive coding skills",
+        "By using pre-trained machine learning models and deploying them as resources",
+        "By providing specialized APIs for each service",
+        "By limiting access to only large organizations"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 79,
+      "question": "What are the two types of Azure AI service resources?",
+      "options": [
+        "Basic and advanced",
+        "Public and private",
+        "Multi-service and single-service",
+        "Internal and external"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 80,
+      "question": "How can developers access Azure AI services?",
+      "options": [
+        "Through REST APIs, client libraries, or integrated tools",
+        "Through complex programming languages only",
+        "Only by using Logic Apps and Power Automate",
+        "Through manual configuration in the Azure portal only"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 81,
+      "question": "What is the purpose of authentication in Azure AI services?",
+      "options": [
+        "To provide access to free resources",
+        "To verify the user's identity and authorization to use the service",
+        "To restrict access to specific geographical locations",
+        "To ensure compatibility with legacy systems"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 82,
+      "question": "What is an image, from the perspective of a computer program?",
+      "options": [
+        "A representation of biological eyes",
+        "A visual perception mechanism",
+        "An array of numeric pixel values"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 83,
+      "question": "What does a single layer of pixel values in an image represent?",
+      "options": [
+        "RGB color hues",
+        "Grayscale image",
+        "Object detection"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 84,
+      "question": "What is the primary purpose of applying filters to images in computer vision?",
+      "options": [
+        "To remove data from images",
+        "To manipulate the size of images",
+        "To modify pixel values and create visual effects"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 85,
+      "question": "Which machine learning model architecture is commonly used in computer vision for image classification?",
+      "options": [
+        "Recurrent Neural Networks (RNNs)",
+        "Convolutional Neural Networks (CNNs)",
+        "Transformer Networks"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 86,
+      "question": "How are filter weights adjusted during the training process of a convolutional neural network?",
+      "options": [
+        "Randomly",
+        "Based on image labels",
+        "Manually"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 87,
+      "question": "What is the primary function of transformers in natural language processing (NLP)?",
+      "options": [
+        "Encoding language tokens as vector-based embeddings",
+        "Removing noise from textual data",
+        "Generating image captions"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 88,
+      "question": "What are multi-modal models in computer vision?",
+      "options": [
+        "To provide prebuilt and customizable computer vision models",
+        "To train language models",
+        "To perform image editing tasks"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 89,
+      "question": "Which capability is supported by Azure AI Vision service?",
+      "options": [
+        "Generating captions and descriptions of images",
+        "Only optical character recognition",
+        "Image compression"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 90,
+      "question": "What is the primary purpose of face detection and analysis in artificial intelligence?",
+      "options": [
+        "To analyze text data",
+        "To locate and analyze human faces in images or video content",
+        "To identify animals in photographs",
+        "To generate captions for images"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 91,
+      "question": "What is an application of facial recognition?",
+      "options": [
+        "Identifying animals in photographs",
+        "Automatically tagging known friends in photographs on social media",
+        "Detecting objects in images",
+        "Analyzing text data"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 92,
+      "question": "What is the purpose of the Azure AI Face service?",
+      "options": [
+        "To provide basic face detection and analysis",
+        "To identify animals in videos",
+        "To analyze text data",
+        "To generate captions for images"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 93,
+      "question": "What attributes can the Azure Face service provide related to detected faces?",
+      "options": [
+        "Species of animals",
+        "Facial expressions",
+        "Accessories, blur, exposure, glasses, head pose, mask, noise, and occlusion",
+        "Text content"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 94,
+      "question": "What is a requirement to use the Azure Face service for additional capabilities?",
+      "options": [
+        "Submit an intake form",
+        "Subscribe to a premium plan",
+        "Upgrade to a higher-tier Azure subscription",
+        "Enroll in a certification program"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 95,
+      "question": "What is OCR?",
+      "options": [
+        "Optical Character Rendering",
+        "Object Character Recognition",
+        "Optical Character Recognition",
+        "Object Code Recognition"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 96,
+      "question": "Which of the following is NOT mentioned as a potential use of OCR?",
+      "options": [
+        "Digitizing medical records",
+        "Scanning checks for bank deposits",
+        "Analyzing satellite images",
+        "Note-taking"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 97,
+      "question": "What is the purpose of Azure AI Vision's Read API?",
+      "options": [
+        "Extract machine-readable text from images, PDFs, and TIFF files",
+        "Analyze sentiment in text data",
+        "Detect objects in images",
+        "Generate synthetic images"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 98,
+      "question": "Which of the following is NOT a way to use Azure AI Vision's Read API?",
+      "options": [
+        "Vision Studio",
+        "REST API",
+        "GraphQL",
+        "Software Development Kits (SDKs)"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 99,
+      "question": "What is the primary function of Vision Studio in Azure AI Vision?",
+      "options": [
+        "Writing code to interact with Azure AI Vision services",
+        "Providing a graphical interface to access Azure AI Vision APIs",
+        "Analyzing data from OCR results",
+        "Training machine learning models"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 100,
+      "question": "Which resource type in Azure subscription allows access to multiple Azure AI services with one key and endpoint?",
+      "options": [
+        "Azure AI Vision",
+        "Azure AI services",
+        "Azure AI Language",
+        "Azure AI Compute"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 101,
+      "question": "What hierarchy is used to organize the results returned by the Azure AI Vision's OCR engine?",
+      "options": [
+        "Pages -> Text blocks -> Words",
+        "Pages -> Lines -> Words",
+        "Pages -> Paragraphs -> Sentences",
+        "Pages -> Regions -> Text blocks"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 102,
+      "question": "What is the main benefit of automating text processing with OCR?",
+      "options": [
+        "Reducing the need for manual data entry",
+        "Increasing hardware efficiency",
+        "Improving network security",
+        "Accelerating graphic rendering"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 103,
+      "question": "In OCR, what are bounding boxes used for?",
+      "options": [
+        "Marking areas of text in an image",
+        "Highlighting areas of interest in an image",
+        "Identifying specific objects in an image",
+        "Measuring the aspect ratio of an image"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 104,
+      "question": "What is the purpose of natural language processing (NLP) in computer systems?",
+      "options": [
+        "To interpret the subject of text in a way similar to humans",
+        "To encrypt text for secure transmission",
+        "To compress text files for storage efficiency",
+        "To convert text to speech"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 105,
+      "question": "Which of the following is an example of a use case for natural language processing (NLP)?",
+      "options": [
+        "Generating random text strings",
+        "Analyzing satellite images",
+        "Creating a social media sentiment analyzer",
+        "Converting images to PDFs"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 106,
+      "question": "What is tokenization in the context of text analysis?",
+      "options": [
+        "Breaking down a text into distinct words or phrases",
+        "Encrypting text for secure transmission",
+        "Converting text to speech",
+        "Analyzing the frequency of words in a text"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 107,
+      "question": "Which of the following techniques is used to determine the most commonly used words in a document?",
+      "options": [
+        "Tokenization",
+        "Stemming",
+        "Frequency analysis",
+        "Entity recognition"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 108,
+      "question": "What is the purpose of entity recognition in text analysis?",
+      "options": [
+        "To break down text into distinct words or phrases",
+        "To detect the language of a text",
+        "To identify people, places, events, and more in text",
+        "To summarize the main points of a document"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 109,
+      "question": "Which Azure resource type should you choose if you want to manage access and billing for Azure AI Language services separately from other services?",
+      "options": [
+        "Azure AI Vision",
+        "Language resource",
+        "Azure AI services resource",
+        "Azure Compute"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 110,
+      "question": "What is the purpose of sentiment analysis in text analytics?",
+      "options": [
+        "To identify people, places, events, and more in text",
+        "To break down text into distinct words or phrases",
+        "To detect positive, negative, or neutral sentiments in text",
+        "To summarize the main points of a document"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 111,
+      "question": "What does the language detection capability of Azure AI Language identify?",
+      "options": [
+        "The sentiment of a text",
+        "The language of a text",
+        "The main points of a document",
+        "The entities in a text"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 112,
+      "question": "What is key phrase extraction used for in text analysis?",
+      "options": [
+        "To encrypt text for secure transmission",
+        "To detect the language of a text",
+        "To identify the main points or concepts in a document",
+        "To summarize the main points of a document"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 113,
+      "question": "What common natural language processing task is supported by language models?",
+      "options": [
+        "Image recognition",
+        "Sentiment analysis",
+        "Video processing",
+        "Audio transcription"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 114,
+      "question": "What is conversational AI?",
+      "options": [
+        "A solution that enables dialogue between an AI agent and a human",
+        "A technique to encrypt communication between computers",
+        "A method for compressing large text files",
+        "An approach to convert speech into text"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 115,
+      "question": "What is the purpose of question answering in conversational AI?",
+      "options": [
+        "To generate random questions",
+        "To provide automated responses to customer queries",
+        "To encrypt communication channels",
+        "To compress large text files"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 116,
+      "question": "Which services are involved in creating a user support bot solution on Microsoft Azure?",
+      "options": [
+        "Azure AI Computer Vision and Azure Speech Services",
+        "Azure AI Language and Azure AI Bot Service",
+        "Azure Compute and Azure IoT Hub",
+        "Azure Machine Learning and Azure Cognitive Search"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 117,
+      "question": "What is the first step in creating a project for custom question answering?",
+      "options": [
+        "Define questions and answers",
+        "Provision a Language resource in Azure",
+        "Test the project",
+        "Build a bot with Azure AI Bot Service"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 118,
+      "question": "What is the purpose of connecting channels in a bot application?",
+      "options": [
+        "To encrypt communication between the bot and users",
+        "To establish a secure connection with the Azure AI Bot Service",
+        "To enable users to interact with the bot through various communication media",
+        "To compress large text files for efficient transmission"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 119,
+      "question": "What is an utterance in conversational language understanding?",
+      "options": [
+        "An example of something a user might say that the application must interpret",
+        "A method for training language models",
+        "A technique to encrypt communication channels",
+        "A type of Azure resource"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 120,
+      "question": "What is an entity in conversational language understanding?",
+      "options": [
+        "A pre-defined intent for common scenarios",
+        "An item to which an utterance refers",
+        "A method for connecting client applications to prediction resources",
+        "A natural language expression that a user might say"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 121,
+      "question": "What is an intent in conversational language understanding?",
+      "options": [
+        "A specific instance of a general device entity",
+        "The purpose or goal expressed in a user's utterance",
+        "A resource for training language models",
+        "A type of pre-built domain"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 122,
+      "question": "What is the None intent used for in conversational language understanding?",
+      "options": [
+        "To handle utterances that do not match any other intent",
+        "To define pre-built intents for common scenarios",
+        "To train language models",
+        "To create entities for utterances"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 123,
+      "question": "What is the purpose of authoring a model in conversational language understanding?",
+      "options": [
+        "To generate random sample utterances",
+        "To define entities, intents, and utterances for training",
+        "To connect client applications to prediction resources",
+        "To publish language models for client consumption"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 124,
+      "question": "What are the two primary capabilities supported by AI speech systems?",
+      "options": [
+        "Speech recognition and transcription",
+        "Speech synthesis and natural language processing",
+        "Speech recognition and synthesis",
+        "Speech analysis and sentiment detection"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 125,
+      "question": "What is the purpose of speech recognition in AI systems?",
+      "options": [
+        "To convert text to speech",
+        "To detect and interpret spoken input",
+        "To analyze sentiment in spoken conversations",
+        "To generate captions for audio files"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 126,
+      "question": "Which models are typically used in speech recognition?",
+      "options": [
+        "Phonetic and grammatical models",
+        "Acoustic and language models",
+        "Syntax and semantic models",
+        "Feature extraction and classification models"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 127,
+      "question": "What is the main purpose of speech synthesis?",
+      "options": [
+        "To detect spoken patterns in audio files",
+        "To generate phonetic transcriptions",
+        "To convert text to spoken output",
+        "To analyze prosodic features in speech"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 128,
+      "question": "Which Azure resource type is required to use Azure AI Speech service?",
+      "options": [
+        "Azure Compute",
+        "Azure Storage",
+        "Azure AI services",
+        "Azure Networking"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 129,
+      "question": "What is the main purpose of document intelligence?",
+      "options": [
+        "To create documents",
+        "To process text and extract information from documents",
+        "To share documents",
+        "To archive documents"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 130,
+      "question": "How does document intelligence automate the process of extracting data from receipts?",
+      "options": [
+        "By manually entering data into a database",
+        "By converting scanned images of receipts into text using OCR",
+        "By outsourcing the task to human workers",
+        "By printing receipts on heat-sensitive paper"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 131,
+      "question": "What are the two types of models supported by Azure AI Document Intelligence?",
+      "options": [
+        "Simple and complex models",
+        "Prebuilt and custom models",
+        "Online and offline models",
+        "Static and dynamic models"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 132,
+      "question": "What kind of information can prebuilt models in Azure AI Document Intelligence extract from invoices?",
+      "options": [
+        "Only customer names",
+        "Only transaction details",
+        "Only sales details",
+        "Customer and vendor details, sales and transaction details, and more"
+      ],
+      "correct_answer_index": 3,
+      "explanation": ""
+    },
+    {
+      "id": 133,
+      "question": "What is the main advantage of using the prebuilt receipt model in Azure AI Document Intelligence?",
+      "options": [
+        "It can process images only in JPEG format",
+        "It can process images of any format and size",
+        "It can process only one receipt type",
+        "It can recognize data on various receipt types with different languages and formats"
+      ],
+      "correct_answer_index": 3,
+      "explanation": ""
+    },
+    {
+      "id": 134,
+      "question": "What is the primary purpose of knowledge mining solutions like Azure AI Search?",
+      "options": [
+        "To manually read through documents",
+        "To automatically extract information from unstructured data",
+        "To organize documents in a file system",
+        "To create documents"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 135,
+      "question": "What is one of the features of Azure AI Search's AI-powered search capabilities?",
+      "options": [
+        "Support for only one language",
+        "Integration with Office 365 only",
+        "Support for image and text analysis",
+        "Restricted to cloud assets only"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 136,
+      "question": "How does Azure AI Search enable data ingestion from various sources?",
+      "options": [
+        "By restricting data sources to Azure databases only",
+        "By providing built-in connectors for data ingestion",
+        "By allowing only JSON format data",
+        "By requiring manual data entry"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 137,
+      "question": "What is the purpose of a skillset in Azure AI Search?",
+      "options": [
+        "To define search queries",
+        "To store search results",
+        "To automate data ingestion",
+        "To apply a sequence of AI skills to enrich data"
+      ],
+      "correct_answer_index": 3,
+      "explanation": ""
+    },
+    {
+      "id": 138,
+      "question": "How are Azure AI Search indexes structured?",
+      "options": [
+        "As rows in a database",
+        "As JSON documents",
+        "As tables in a file system",
+        "As columns in a spreadsheet"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 139,
+      "question": "What are the two approaches provided by Azure AI Search to create and load JSON documents into an index?",
+      "options": [
+        "Push method and Pull method",
+        "Export method and Import method",
+        "REST API method and SDK method",
+        "Source method and Target method"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 140,
+      "question": "Which method does Azure AI Search use to pull data from external Azure data sources and populate a search index?",
+      "options": [
+        "Push method",
+        "REST API method",
+        "Pull method",
+        "Import method"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 141,
+      "question": "How can you monitor the progress of loading new documents into an index?",
+      "options": [
+        "By checking the Azure AI Search dashboard",
+        "By monitoring the associated indexer",
+        "By using the Search explorer tool",
+        "All of the above"
+      ],
+      "correct_answer_index": 3,
+      "explanation": ""
+    },
+    {
+      "id": 142,
+      "question": "What is the purpose of a knowledge store in Azure AI Search?",
+      "options": [
+        "To persist connection information to source data",
+        "To store enriched content generated from AI skillsets",
+        "To create a physical data structure for full text search",
+        "To manage components of the Azure AI Search resource"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 143,
+      "question": "What is the default search syntax for queries in Azure AI Search?",
+      "options": [
+        "Simple query syntax",
+        "Full Lucene query syntax",
+        "Advanced query syntax",
+        "Complex query syntax"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 144,
+      "question": "What is generative AI?",
+      "options": [
+        "AI that imitates human behavior using predefined instructions",
+        "AI that interacts with the environment without explicit directions",
+        "AI that generates original content",
+        "AI that analyzes existing data and makes predictions"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 145,
+      "question": "Which of the following is an example of generative AI application?",
+      "options": [
+        "Weather forecasting",
+        "Stock market analysis",
+        "ChatGPT, a chatbot",
+        "Medical diagnosis"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 146,
+      "question": "What types of responses can generative AI applications provide?",
+      "options": [
+        "Text only",
+        "Text, images, and code",
+        "Images only",
+        "Code only"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 147,
+      "question": "What is the purpose of tokenization in transformer models?",
+      "options": [
+        "To create natural language responses",
+        "To decompose training text into tokens",
+        "To generate embeddings for tokens",
+        "To calculate attention scores"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 148,
+      "question": "What is the role of attention layers in transformer models?",
+      "options": [
+        "To predict the next token in a sequence",
+        "To evaluate the semantic relationships between tokens",
+        "To decompose training text into tokens",
+        "To generate embeddings for tokens"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 149,
+      "question": "What is Azure OpenAI Service?",
+      "options": [
+        "Microsoft's cloud solution for deploying, customizing, and hosting large language models",
+        "A platform for weather forecasting",
+        "An API for stock market analysis",
+        "A medical diagnosis tool"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 150,
+      "question": "What can developers do with Azure OpenAI Studio?",
+      "options": [
+        "Deploy large language models and provide few-shot examples",
+        "Build and deploy weather forecasting models",
+        "Train medical diagnosis models",
+        "Analyze stock market trends"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 151,
+      "question": "What are copilots?",
+      "options": [
+        "Large language models for generating code",
+        "AI assistants that help users with common tasks",
+        "Models specifically designed for medical diagnosis",
+        "Tools for weather forecasting"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 152,
+      "question": "What is prompt engineering?",
+      "options": [
+        "The process of designing user interfaces",
+        "The process of improving the quality of responses from generative AI by refining prompts",
+        "The process of optimizing search engine algorithms",
+        "The process of training machine learning models"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 153,
+      "question": "How can developers improve the quality of responses from generative AI?",
+      "options": [
+        "By using complex prompts",
+        "By providing examples and grounding data in prompts",
+        "By increasing the size of the model",
+        "By reducing the amount of training data"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 154,
+      "question": "What are the main goals of the partnership between Microsoft and OpenAI?",
+      "options": [
+        "To utilize Azure's infrastructure, including security, compliance, and regional availability, to help users build enterprise-grade applications.",
+        " To deploy OpenAI AI model capabilities across Microsoft products, including and beyond Azure AI products.",
+        "To use Azure to power all of OpenAI's workloads.",
+        "All of the above"
+      ],
+      "correct_answer_index": 3,
+      "explanation": ""
+    },
+    {
+      "id": 155,
+      "question": "What are GPT models proficient in?",
+      "options": [
+        "Understanding and creating natural language",
+        "Generating images",
+        "Translating code from one programming language into another",
+        "None of the above"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 156,
+      "question": "What is one way to access Azure OpenAI Service?",
+      "options": [
+        "By registering for limited access",
+        "By downloading the Azure OpenAI Studio app",
+        "By purchasing a subscription from the Microsoft Store",
+        "All of the above"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 157,
+      "question": "How can Azure OpenAI help developers code faster?",
+      "options": [
+        "By providing code suggestions and completions",
+        "By automatically debugging code",
+        "By generating entire software applications",
+        "None of the above"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 158,
+      "question": "What is the significance of Azure OpenAI's enterprise-grade security features?",
+      "options": [
+        "They ensure that only Microsoft employees can access the service",
+        "They protect users' AI models and data",
+        "They prioritize speed over security",
+        "They limit the functionality of the AI models"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 159,
+      "question": "How does Azure OpenAI contribute to responsible AI use?",
+      "options": [
+        "By allowing users to build any application without restrictions",
+        "By providing tools to detect and mitigate harmful use cases",
+        "By promoting biased decision-making",
+        "None of the above"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 160,
+      "question": "What is the purpose of Transparency Notes in Azure OpenAI?",
+      "options": [
+        "To explain how to use the Azure OpenAI Studio app",
+        "To outline the terms of service for Azure OpenAI",
+        "To share information about how the technology is built and its implications",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 161,
+      "question": "According to Microsoft's guidelines, what is the first stage in developing a responsible generative AI plan?",
+      "options": [
+        "Identify potential harms",
+        "Measure potential harms",
+        "Mitigate potential harms"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 162,
+      "question": "Which layer of a generative AI solution focuses on the construction of prompts submitted to the model?",
+      "options": [
+        "The model layer",
+        "The safety system layer",
+        "The metaprompt and grounding layer"
+      ],
+      "correct_answer_index": 2,
+      "explanation": ""
+    },
+    {
+      "id": 163,
+      "question": "What is the purpose of the \"red team\" testing mentioned in the responsible generative AI process?",
+      "options": [
+        "To verify the presence of potential harms in the solution",
+        "To prioritize the identified harms",
+        "To test the robustness of the model layer"
+      ],
+      "correct_answer_index": 0,
+      "explanation": ""
+    },
+    {
+      "id": 164,
+      "question": "What is a recommended approach to measuring a system for potential harms?",
+      "options": [
+        "Performing only manual testing to ensure accuracy",
+        "Using pre-defined criteria to evaluate the output",
+        "Applying harm categorization after the testing phase"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 165,
+      "question": "What should be included in the documentation and descriptions of a generative AI solution?",
+      "options": [
+        "Descriptions of the user interface design only",
+        "Information about the generative AI model used",
+        "Recommendations for system deployment"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 166,
+      "question": "What is the purpose of the safety system layer in a generative AI solution?",
+      "options": [
+        "To fine-tune the generative AI model",
+        "To apply platform-level configurations and capabilities to mitigate harm",
+        "To design the user interface of the application"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    },
+    {
+      "id": 167,
+      "question": "What is the significance of devising a phased delivery plan for releasing a generative AI solution?",
+      "options": [
+        "It allows for rapid deployment without user feedback",
+        "It helps gather feedback and identify problems before a wider release",
+        "It ensures complete secrecy of the solution until full release"
+      ],
+      "correct_answer_index": 1,
+      "explanation": ""
+    }
+  ]
+}
