@@ -7,8 +7,7 @@ type Env = {
 
 const app = new Hono<{ Bindings: Env }>();
 
-// Middleware to handle CORS preflight requests
-// POST /api/leaderboard - submit a score
+// POST /leaderboard - submit a score
 app.post('/', async (c) => {
   const { name, score, exam } = await c.req.json();
   if (!name || typeof score !== 'number' || !exam) {
@@ -20,7 +19,7 @@ app.post('/', async (c) => {
   return c.json({ success: true });
 });
 
-// GET /api/leaderboard?exam=... - fetch leaderboard
+// GET /leaderboard?exam=... - fetch leaderboard
 app.get('/', async (c) => {
   const exam = c.req.query('exam');
   let query = 'SELECT name, score, exam, created_at FROM leaderboard';
