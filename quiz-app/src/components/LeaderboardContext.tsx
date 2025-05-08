@@ -2,9 +2,7 @@ import React, { createContext, useContext, useState, ReactNode, useEffect, useCa
 import { LeaderboardState, LeaderboardContextState, ScoreEntry } from '../types';
 import {
   getAllScores as getScoresApi,
-  getScoresByExam as getScoresByExamApi,
-  addScoreToLeaderboard as addScoreApi,
-  clearLeaderboard as clearLeaderboardApi
+  addScoreToLeaderboard as addScoreApi
 } from '../utils/leaderboardUtils';
 
 const initialLeaderboardState: LeaderboardState = { scores: [] };
