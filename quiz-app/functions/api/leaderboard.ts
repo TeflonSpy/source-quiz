@@ -1,5 +1,5 @@
-/// <reference types="@cloudflare/workers-types" />
 import { Hono } from 'hono';
+/// <reference types="@cloudflare/workers-types" />
 
 type Env = {
   DB: D1Database;

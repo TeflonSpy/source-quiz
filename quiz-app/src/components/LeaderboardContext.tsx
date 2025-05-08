@@ -1,15 +1,14 @@
-import React, { createContext, useContext, useState, ReactNode, useEffect } from 'react';
+import React, { createContext, useContext, useState, ReactNode, useEffect, useCallback } from 'react';
 import { LeaderboardState, LeaderboardContextState, ScoreEntry } from '../types';
-import { 
-  initialLeaderboardState, 
-  LEADERBOARD_STORAGE_KEY, 
-  getAllScores as getScoresUtil,
-  getScoresByExam as getScoresByExamUtil,
-  clearLeaderboard as clearLeaderboardUtil,
-  addScoreToLeaderboard
+import {
+  getAllScores as getScoresApi,
+  getScoresByExam as getScoresByExamApi,
+  addScoreToLeaderboard as addScoreApi,
+  clearLeaderboard as clearLeaderboardApi
 } from '../utils/leaderboardUtils';
 
-// Create context with initial state
+const initialLeaderboardState: LeaderboardState = { scores: [] };
+
 const LeaderboardContext = createContext<LeaderboardContextState>({
   leaderboard: initialLeaderboardState,
   getScoresByExam: () => [],
@@ -18,7 +17,6 @@ const LeaderboardContext = createContext<LeaderboardContextState>({
   addScore: () => {},
 });
 
-// Custom hook to use leaderboard context
 export const useLeaderboard = () => useContext(LeaderboardContext);
 
 interface LeaderboardProviderProps {
@@ -28,62 +26,35 @@ interface LeaderboardProviderProps {
 export const LeaderboardProvider: React.FC<LeaderboardProviderProps> = ({ children }) => {
   const [leaderboard, setLeaderboard] = useState<LeaderboardState>(initialLeaderboardState);
 
-  // Load leaderboard data from local storage on component mount
-  useEffect(() => {
-    try {
-      const storedLeaderboard = localStorage.getItem(LEADERBOARD_STORAGE_KEY);
-      if (storedLeaderboard) {
-        setLeaderboard(JSON.parse(storedLeaderboard));
-      }
-    } catch (error) {
-      console.error('Failed to load leaderboard from local storage:', error);
-      // Initialize with empty leaderboard if there's an error
-      setLeaderboard(initialLeaderboardState);
-    }
+  // Load all scores from API
+  const loadAllScores = useCallback(async () => {
+    const scores = await getScoresApi();
+    setLeaderboard({ scores });
   }, []);
 
-  // Listen for localStorage changes (in case another component updates the leaderboard)
   useEffect(() => {
-    const handleStorageChange = (e: StorageEvent) => {
-      if (e.key === LEADERBOARD_STORAGE_KEY && e.newValue) {
-        try {
-          setLeaderboard(JSON.parse(e.newValue));
-        } catch (error) {
-          console.error('Failed to parse leaderboard from storage event:', error);
-        }
-      }
-    };
-
-    window.addEventListener('storage', handleStorageChange);
-    return () => {
-      window.removeEventListener('storage', handleStorageChange);
-    };
-  }, []);
+    loadAllScores();
+  }, [loadAllScores]);
 
   // Add a new score entry to the leaderboard
-  const addScore = (scoreEntry: ScoreEntry) => {
-    addScoreToLeaderboard(scoreEntry);
-    
-    // Update local state to reflect the change
-    setLeaderboard(prev => ({
-      scores: [...prev.scores, scoreEntry]
-    }));
+  const addScore = async (scoreEntry: ScoreEntry) => {
+    await addScoreApi(scoreEntry);
+    await loadAllScores();
   };
 
   // Get scores for a specific exam
   const getScoresByExam = (examId: string): ScoreEntry[] => {
-    return getScoresByExamUtil(examId);
+    return leaderboard.scores.filter(entry => entry.examId === examId);
   };
 
   // Get all scores
   const getAllScores = (): ScoreEntry[] => {
-    return getScoresUtil();
+    return leaderboard.scores;
   };
 
-  // Clear all leaderboard entries
+  // Clear all leaderboard entries (not implemented)
   const clearLeaderboard = () => {
-    clearLeaderboardUtil();
-    setLeaderboard(initialLeaderboardState);
+    // Optionally implement if you add an API endpoint for this
   };
 
   const value = {
