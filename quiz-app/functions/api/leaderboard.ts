@@ -7,6 +7,7 @@ type Env = {
 
 const app = new Hono<{ Bindings: Env }>();
 
+// Middleware to handle CORS preflight requests
 // POST /api/leaderboard - submit a score
 app.post('/', async (c) => {
   const { name, score, exam } = await c.req.json();
