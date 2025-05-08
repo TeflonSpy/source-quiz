@@ -4,4 +4,3 @@ database_name = "quiz-leaderboard"
 database_id = "77bc72ed-0f4d-4796-8553-04d554faf51f"
 
 pages_build_output_dir = "./build"
-// Added the required property for Cloudflare Pages deployment
