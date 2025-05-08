@@ -1,0 +1,83 @@
+/* Modern homepage CSS for Microsoft Certification Quiz */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #0D1117;
+  color: #fff;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+h1 {
+  font-family: "Segoe UI Semibold", sans-serif;
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #6A5AFF, #00C2FF);
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+}
+h1::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 4px;
+  background: linear-gradient(90deg, #6A5AFF, #00C2FF);
+  margin-top: 8px;
+  border-radius: 2px;
+}
+.sections {
+  padding: 20px;
+  display: grid;
+  gap: 32px;
+}
+section {
+  padding: 20px;
+  background: #161B22;
+  border-radius: 12px;
+}
+section h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.fundamental h2 { color: #00B5D8; }
+.professional h2 { color: #C084FC; }
+.expert h2 { color: #F97316; }
+.cards {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 1 1 calc(33% - 16px);
+  min-width: 150px;
+  background: #21262D;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.6);
+}
+.card span {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.card small {
+  color: #c9d1d9;
+}
+.az-900 { border-top: 4px solid #00B5D8; }
+.ai-900 { border-top: 4px solid #10B981; }
+.dp-900 { border-top: 4px solid #D97706; }
+.az-104 { border-top: 4px solid #3B82F6; }
+.az-204 { border-top: 4px solid #A855F7; }
+.az-305 { border-top: 4px solid #6366F1; }
+.az-400 { border-top: 4px solid #EF4444; }
