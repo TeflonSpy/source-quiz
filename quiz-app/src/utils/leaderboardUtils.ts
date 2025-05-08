@@ -1,6 +1,6 @@
 import { ScoreEntry } from '../types';
 
-const API_URL = '/api/leaderboard';
+const API_URL = '/leaderboard';
 
 export const addScoreToLeaderboard = async (scoreEntry: ScoreEntry): Promise<void> => {
   await fetch(API_URL, {
