@@ -1,0 +1,4 @@
+[[d1_databases]]
+binding = "DB"
+database_name = "quiz-leaderboard"
+database_id = "77bc72ed-0f4d-4796-8553-04d554faf51f"
