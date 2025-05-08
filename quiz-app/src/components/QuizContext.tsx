@@ -34,8 +34,7 @@ const QuizContext = createContext<QuizContextState>({
 // Custom hook to use quiz context
 export const useQuiz = () => useContext(QuizContext);
 
-// Maximum number of questions per quiz
-const MAX_QUESTIONS = 50;
+// const MAX_QUESTIONS = 50; // REMOVE THIS LINE if not used
 const DEFAULT_QUESTION_COUNT = 50;
 
 interface QuizProviderProps {

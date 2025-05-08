@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import ExamSelector from './components/ExamSelector';
 import QuizContainer from './components/QuizContainer';
 import Leaderboard from './components/Leaderboard';
 import { QuizProvider } from './components/QuizContext';
